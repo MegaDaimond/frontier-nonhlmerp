@@ -10,9 +10,9 @@ jobs:
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.6.0
       - name: Yaspeller Action
-        uses: heytitle/github-action-yaspeller/v0.0.7
+        uses: p16i/github-action-yaspeller@v0.0.7
         with:
           ext: "*.ftl"
           dir: "./Resources/Locale/ru-RU"
