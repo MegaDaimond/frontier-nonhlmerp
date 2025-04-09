@@ -1,4 +1,4 @@
-﻿ent-NFBuddyBase = { "" }
+ent-NFBuddyBase = { "" }
     .desc = { "" }
 ent-NFMobHumanBuddy = { ent-MobHuman }
     .suffix = Построй-ка-Дружка

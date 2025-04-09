@@ -1,4 +1,4 @@
-﻿ent-BaseHyperlinkBook = { ent-BaseItem }
+ent-BaseHyperlinkBook = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-NFHyperlinkBookSpaceLaw = космический закон
     .desc = Большая книга законов для космических судов.

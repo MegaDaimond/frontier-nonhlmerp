@@ -1,2 +1,2 @@
-﻿ent-ActionVehicleHorn = Хонк
+ent-ActionVehicleHorn = Хонк
     .desc = Хонк!

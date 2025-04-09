@@ -1,4 +1,4 @@
-﻿ent-CratePlasticBiodegradable = биоразлагаемый пластиковый ящик
+ent-CratePlasticBiodegradable = биоразлагаемый пластиковый ящик
     .desc = Кажется невероятно хрупким.
 ent-CrateUranium = урановый ящик
     .desc = { ent-CrateBaseSecure.desc }

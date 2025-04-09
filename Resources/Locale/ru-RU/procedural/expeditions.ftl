@@ -18,7 +18,6 @@ salvage-expedition-window-modifiers = Модификаторы:
 # Frontier: salvagers<team size
 salvage-expedition-difficulty-players = Рекомендуемый размер команды:
 # Frontier: Expedition descriptions
-salvage-expedition-desc-mining = Получить ресурсы в зоне
 salvage-expedition-window-next = Следующее предложение
 salvage-expedition-difficulty-Moderate = Умеренная
 salvage-expedition-difficulty-Hazardous = Высокая

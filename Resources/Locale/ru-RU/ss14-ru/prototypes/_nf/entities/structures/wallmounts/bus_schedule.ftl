@@ -1,4 +1,4 @@
-﻿ent-BusSchedule = Расписание автобусов
+ent-BusSchedule = Расписание автобусов
     .desc = Расписание которое поможет тебе узнать когда прибудет твой автобус. Не пропусти!
     .suffix = Авто
 ent-BusScheduleRoute1 = { ent-BusSchedule }

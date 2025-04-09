@@ -1,3 +1,3 @@
-﻿ent-BenchComfyTransit = { ent-BenchComfy }
+ent-BenchComfyTransit = { ent-BenchComfy }
     .suffix = Окраска "Транзит"
     .desc = { ent-BenchComfy.desc }

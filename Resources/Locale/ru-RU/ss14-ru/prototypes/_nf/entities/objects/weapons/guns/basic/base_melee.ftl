@@ -1,2 +1,2 @@
-﻿ent-BaseGunMelee = { "" }
+ent-BaseGunMelee = { "" }
     .desc = { "" }

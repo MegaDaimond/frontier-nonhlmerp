@@ -1,4 +1,4 @@
-﻿ent-FloorTileItemGrassDark = пол темной травы
+ent-FloorTileItemGrassDark = пол темной травы
     .desc = { ent-FloorTileItemBase.desc }
 ent-FloorTileItemGrassLight = пол светлой травы
     .desc = { ent-FloorTileItemBase.desc }

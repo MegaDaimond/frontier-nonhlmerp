@@ -1,4 +1,4 @@
-﻿ent-BaseVehicle = { "" }
+ent-BaseVehicle = { "" }
     .desc = { "" }
 ent-BaseVehicleRideable = транспорт
     .desc = { ent-BaseVehicle.desc }

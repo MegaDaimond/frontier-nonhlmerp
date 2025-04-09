@@ -1,2 +1,2 @@
-﻿ent-ScreenBus = { ent-Screen }
+ent-ScreenBus = { ent-Screen }
     .desc = Отображает имя автобуса.
