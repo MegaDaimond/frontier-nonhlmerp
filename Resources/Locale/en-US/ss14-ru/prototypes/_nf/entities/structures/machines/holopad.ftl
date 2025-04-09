@@ -1,8 +1,11 @@
-ent-NFHolopadShip = { ent-HolopadLongRange }
+ent-NFHolopadShip = bluespace holopad
+    .desc = A floor-mounted device for projecting holographic images to enable ship to ship communication.
     .suffix = Ship
-    .desc = { ent-HolopadLongRange.desc }
+ent-NFHolopadShipAntag = { ent-NFHolopadShip }
+    .suffix = Ship, Antag
+    .desc = { ent-NFHolopadShip.desc }
 ent-NFHolopadPoiBase = { ent-BaseStructureDisableToolUse }
-    .suffix = POI
+    .suffix = Точ. Интер.
     .desc = { ent-BaseStructureDisableToolUse.desc }
 ent-NFHolopadLaboratory = { ent-NFHolopadPoiBase }
     .suffix = Anomalous Laboratory, POI
