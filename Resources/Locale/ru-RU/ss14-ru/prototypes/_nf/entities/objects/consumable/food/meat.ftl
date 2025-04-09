@@ -1,5 +1,5 @@
-ent-FoodMeatGoblin = raw goblin meat
-    .desc = Just look at that marbling! Wait, is that microplastic?
+ent-FoodMeatGoblin = сырое гоблинское мясо
+    .desc = Только посмотрите на этот мраморность! Подождите, это что, микропластик?
 ent-FoodMeatCat = отборное кошачье мясо
     .desc = Осквернённый дар, полученный в результате жестокого преступления. Мясо может быть вкусным, но какой ценой?
 ent-FoodMeatChickenBattered = курица в панировке
