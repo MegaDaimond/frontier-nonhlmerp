@@ -1,4 +1,4 @@
-﻿ent-NFBaseProximityMine = { "" }
+ent-NFBaseProximityMine = { "" }
     .desc = { "" }
 ent-NFConcealedMineExplosive = { ent-NFBaseProximityMine }
     .suffix = Горизонт, копай, взрывной

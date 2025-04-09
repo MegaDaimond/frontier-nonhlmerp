@@ -1,4 +1,4 @@
-﻿ent-NFClothingBackpackDuffelJanitor = janitor duffel
+ent-NFClothingBackpackDuffelJanitor = janitor duffel
     .desc = This bad boy can fit so many cleaning implements!
 ent-NFClothingBackpackDuffelChaplain = chaplain duffel
     .desc = Don't forget to extinguish the censer before putting it inside.

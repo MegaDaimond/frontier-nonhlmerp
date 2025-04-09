@@ -1,2 +1,2 @@
-﻿ent-FoodEggLaid = { ent-FoodEgg }
+ent-FoodEggLaid = { ent-FoodEgg }
     .desc = Фермерское, свежее и еще теплое!

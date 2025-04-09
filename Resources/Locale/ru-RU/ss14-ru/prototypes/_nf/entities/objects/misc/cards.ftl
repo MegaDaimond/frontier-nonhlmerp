@@ -1,4 +1,4 @@
-﻿ent-NFBusinessCardBlank = визитная карточка
+ent-NFBusinessCardBlank = визитная карточка
     .desc = Визитная карточка. Для непревзойденного профессионала.
 ent-PowerForkCertification = сертификат вилочного погрузчика
     .desc = Сертификат на эксплуатацию тяжелой техники.

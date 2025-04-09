@@ -1,4 +1,4 @@
-﻿ent-NFPouchBase = мешочек
+ent-NFPouchBase = мешочек
     .desc = Сумка для хранения разных предметов.
     .suffix = пустая
 ent-NFPouchUtility = вещевой мешок

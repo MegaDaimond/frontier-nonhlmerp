@@ -1,4 +1,4 @@
-﻿ent-BusSchedule = bus schedule
+ent-BusSchedule = bus schedule
     .desc = A schedule that tells you when the bus is here. Don't miss it!
     .suffix = Auto
 ent-BusScheduleRoute1 = { ent-BusSchedule }

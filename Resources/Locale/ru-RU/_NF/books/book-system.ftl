@@ -1,1 +1,1 @@
-﻿book-read-verb = Читать
+book-read-verb = Читать
