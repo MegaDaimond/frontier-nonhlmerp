@@ -1,9 +1,9 @@
 lppguide-entry-rights = Права сотрудников корпорации
 lppguide-entry-brib = Основные Права Разумных Существ
-lppguide-entry-rightsprisoners = Права заключенных/задержанных
+lppguide-entry-rightsprisoners = Права заключённых/задержанных
 lppguide-entry-spacelaw = Космический закон
 lppguide-entry-arrestprocedure = Процедура ареста
-lppguide-entry-listofprohibitedsubstances = Список запрещенных веществ
+lppguide-entry-listofprohibitedsubstances = Список запрещённых веществ
 lppguide-entry-levelsofforceapplication = Уровни Применения Силы
 lppguide-entry-necessarydefense = Необходимая оборона
 lppguide-entry-articlesofthecorporatelaw = Статьи Корпоративного Закона

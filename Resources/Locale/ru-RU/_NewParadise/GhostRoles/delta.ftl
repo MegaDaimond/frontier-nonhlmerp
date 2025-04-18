@@ -7,4 +7,4 @@ ghost-role-information-delta-medic-description = Верните всех реб�
 ghost-role-information-delta-engineer-name = Инженер ОСН "Дельта"
 ghost-role-information-delta-engineer-description = Стройте укрепления и вскрывайте инженерные заграждения. Кстати, вы любимчик среди КПБ, киборгов и операторов мехов.
 ghost-role-information-delta-pyrotech-name = Штурмовик ОСН "Дельта"
-ghost-role-information-delta-pyrotech-description = Прикройте отряд тяжелым вооружением и возглавьте огневую группу.
+ghost-role-information-delta-pyrotech-description = Прикройте отряд тяжёлым вооружением и возглавьте огневую группу.

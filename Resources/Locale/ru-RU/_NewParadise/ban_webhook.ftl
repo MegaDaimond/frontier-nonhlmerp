@@ -13,7 +13,7 @@ server-time-ban-string =
         > **Логин:** ``{ $adminName }``
     
         > **Выдан:** { $TimeNow }
-        > **Истечет:** { $expiresString }
+        > **Истечёт:** { $expiresString }
     
         > **Причина:** { $reason }
 server-ban-footer = { $server } | Раунд: #{ $round }
@@ -35,7 +35,7 @@ server-role-ban-string =
         > **Логин:** ``{ $adminName }``
     
         > **Выдан:** { $TimeNow }
-        > **Истечет:** { $expiresString }
+        > **Истечёт:** { $expiresString }
     
         > **Роли:** { $roles }
     
