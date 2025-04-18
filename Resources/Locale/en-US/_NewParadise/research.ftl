@@ -1,4 +1,4 @@
-﻿lppresearch-discipline-diamond-production = Алмазное производство
+lppresearch-discipline-diamond-production = Алмазное производство
 lppresearch-technology-diamond-salvage-equipment = Продвинутое алмазное шахтёрское оборудование
 lppresearch-technology-anti-laser-devices = Противолазерные средства
 lppresearch-technology-advanced-design = Продвинутое конструирование

@@ -1,4 +1,4 @@
-﻿cybersun-set-category-name = Контракт Cybersan
+cybersun-set-category-name = Контракт Cybersan
 cybersun-set-category-description = Мастера энергетического оружия, тяжёлых скафандров и имплантов.
 donk-set-category-name = Контракт Donk
 donk-set-category-description = Дешёвые подкрепления, оружие и различного рода препараты.

@@ -1,4 +1,4 @@
-﻿stack-name-LPPZipties = кабельные стяжки
+stack-name-LPPZipties = кабельные стяжки
 stack-name-MetalRod = стержень
 stack-name-Telecrystal = телекристалл
 stack-name-PrizeTicket = призовой билет

@@ -1,4 +1,4 @@
-﻿interaction-LPPMakeSleepIPC-name = Гибернация
+interaction-LPPMakeSleepIPC-name = Гибернация
 interaction-LPPMakeSleepIPC-description = Перейти в режим "Гибернации"
 interaction-LPPMakeSleepIPC-fail-self-popup = Ты не можешь сейчас перейти в гибернацию
 interaction-LPPMakeSleepIPC-success-self-popup = Твоя система наконецто погружаешся в гибернацию.

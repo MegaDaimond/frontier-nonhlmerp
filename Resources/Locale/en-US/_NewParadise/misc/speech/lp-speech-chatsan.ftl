@@ -1,4 +1,4 @@
-﻿lp-chatsan-word-3 = общ
+lp-chatsan-word-3 = общ
 lp-chatsan-replacement-3 = осщ
 lp-chatsan-word-4 = блющилд
 lp-chatsan-replacement-4 = Синий Щит

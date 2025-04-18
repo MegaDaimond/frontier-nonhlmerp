@@ -1,4 +1,4 @@
-﻿#materials
+#materials
 
 construction-graph-name-MetalRod = металлический стержень
 construction-graph-desc-MetalRod = Прочный металлический стержень, который можно использовать для различных целей.

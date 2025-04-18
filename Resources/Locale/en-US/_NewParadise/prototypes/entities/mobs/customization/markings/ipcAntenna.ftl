@@ -1,4 +1,4 @@
-﻿marking-LPPRobotAntennaTv = TV
+marking-LPPRobotAntennaTv = TV
 marking-LPPIPCAntennaTesla = Тесла
 marking-LPPIPCAntennaLightb = Свет (alt)
 marking-LPPIPCAntennaLight = Свет

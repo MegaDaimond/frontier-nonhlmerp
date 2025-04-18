@@ -1,4 +1,4 @@
-﻿uplink-catalog-armor-homyak-name = разгрузочный жилет "Хомяк"
+uplink-catalog-armor-homyak-name = разгрузочный жилет "Хомяк"
 uplink-catalog-armor-homyak-desc = Комплект из карманов, сумок и прочей лабуды предоставляет кучу места для ваших всевозможных вещей, что вы сюда запихнёте. Выглядит крайне громоздко однако.
 uplink-catalog-armor-swathelmet-name = шлем спецназа синдиката
 uplink-catalog-armor-swathelmet-desc = Крепкий шлем, что защитит вашу голову от ненужных свинцовых, а так же лазерных выстрелов.

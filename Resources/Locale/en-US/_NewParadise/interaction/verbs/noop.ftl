@@ -1,4 +1,4 @@
-﻿interaction-LPPPatShoulder-name = Похлопать по плечу
+interaction-LPPPatShoulder-name = Похлопать по плечу
 interaction-LPPPatShoulder-description = Подбодрите кого-нибудь похлопав его по плечу!
 interaction-LPPPatShoulder-success-self-popup = Вы хлопаете по плечу { THE($target) }.
 interaction-LPPPatShoulder-success-target-popup = Вы чуствуете как { THE($user) } хлопает вам по плечу...
