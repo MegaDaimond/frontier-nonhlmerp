@@ -17,4 +17,4 @@ placeholders-criminal-records-wanted-reason-16 = Подскользнул Нач
 placeholders-criminal-records-wanted-reason-17 = Украл маску клоуна
 placeholders-criminal-records-wanted-reason-18 = Рассказал несмешной анекдот
 placeholders-criminal-records-wanted-reason-19 = Носил противогаз
-placeholders-criminal-records-wanted-reason-20 = Носил боксерские перчатки
+placeholders-criminal-records-wanted-reason-20 = Носил боксёрские перчатки
