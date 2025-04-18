@@ -1,8 +1,5 @@
 ent-LPPClothingBackpackSatchelHop = Сумка Главы Персонала
     .desc = Сотканная из дорогих тканей сумка.
-ent-LPPClothingSatchelSmuggler = { ent-ClothingBackpackSatchel }
-    .desc = { ent-ClothingBackpackSatchel.desc }
-    .suffix = Контрабандист
 ent-LPPClothingSatchelSecurityEngineer = Сумка полевого инженера
     .desc = Свет инженерного отдела продолжает борьбу... Все еще не заляпан кровью...
 ent-LPPClothingBackpackSatchelBlueshield = Сумка офицера "Синий Щит"

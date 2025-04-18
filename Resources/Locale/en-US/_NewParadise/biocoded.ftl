@@ -1,4 +1,4 @@
-﻿## Examine
+## Examine
 
 biocoded-clothing-component-examine-disabled = Система биокодинга [color=gray]выключена[/color]. Любой способен надеть это.
 biocoded-clothing-component-examine-no-owner = Система биокодинга [color=green]не имеет владельца[/color]. Наденьте это, для становления новым владельцем.

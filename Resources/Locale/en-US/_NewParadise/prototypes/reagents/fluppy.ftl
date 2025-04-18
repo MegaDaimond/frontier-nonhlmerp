@@ -1,4 +1,4 @@
-﻿reagent-name-fluffyapple = яблочный фруппи
+reagent-name-fluffyapple = яблочный фруппи
 reagent-desc-space-fluffyapple = Яблочный микс самых свежайших яблок со всей галактики. Вызывает привыкание.
 reagent-desc-physical-fluffyapple = едкое, словно незастывший гудрон
 flavor-complex-applefluffy = как яблочный ацидолакт

@@ -1,4 +1,4 @@
-﻿lattice-half-1 = половина решётка
+lattice-half-1 = половина решётка
 lattice-half-2 = половина решётка
 lattice-half-3 = половина решётка
 lattice-half-4 = половина решётка

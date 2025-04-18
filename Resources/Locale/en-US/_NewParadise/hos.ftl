@@ -1,4 +1,4 @@
-﻿lpp-hos-catalog-weapon-hm34-name = HM34
+lpp-hos-catalog-weapon-hm34-name = HM34
 lpp-hos-catalog-weapon-hm34-desc = Пистолет приемлемо-среднего качества, производимый дочерней компанией НаноТрейзен. Использует патроны калибра .35 авто.
 lpp-hos-catalog-weapon-pf20-name = PF20
 lpp-hos-catalog-weapon-pf20-desc = Пистолет Фишера под патрон .20, предаствляющий компактность пистолета и мощь винтовочного патрона. Используется спец подразделениями по всей галактике.
@@ -17,7 +17,7 @@ lpp-hos-catalog-weapon-snub45-desc = Старый и надёжный револ
 lpp-hos-catalog-weapon-panther-name = пантера
 lpp-hos-catalog-weapon-panther-desc = Быстрый револьвер для быстрых решений. Использует патроны .45 калибра.
 lpp-hos-catalog-weapon-soleil-name = гибридный модуль S.O.L.E.I.L.
-lpp-hos-catalog-weapon-soleil-desc = Прототип гибридного лазерного "пистолета", представляющего из себя устройство, что цепляется на локоть, имеет летальный и нелетальный режимы стрельбы.
+lpp-hos-catalog-weapon-soleil-desc = Прототип гибридного лазерного "пистолета", представляющего из себя устройство, что цепляется на локоть, имеет летальный и не летальный режимы стрельбы.
 lpp-hos-catalog-weapon-inspector-name = коллекционный инспектор
 lpp-hos-catalog-weapon-inspector-desc = Обычно, его дают за заслуги перед законом и профессионализм. Использует патроны 45 калибра. Ради понтов.
 lpp-hos-catalog-weapon-judge-name = судья

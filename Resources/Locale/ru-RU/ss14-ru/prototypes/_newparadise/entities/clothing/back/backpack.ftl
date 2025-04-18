@@ -1,6 +1,3 @@
-ent-LPPClothingSatchelSmugglerAbstract = { ent-ClothingBackpackSatchel }
-    .desc = { ent-ClothingBackpackSatchel.desc }
-    .suffix = Контрабандист
 ent-LPPClothingBackpackBlueshieldFilled = { ent-LPPClothingBackpackBlueshield }
     .desc = { ent-LPPClothingBackpackBlueshield.desc }
 ent-LPPClothingBackpackHop = Рюкзак Главы Персонала
