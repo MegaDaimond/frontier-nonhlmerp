@@ -34,9 +34,11 @@
   # LOP edit end
   fallbacks:
   - DeputyClothingHeadHatDeputy
-  - LPPNfsdClothingHeadHatCowboy #LOP edit
-  - LPPNfsdClothingHeadHatDeputySherif #LOP edit
-  - LPPNfsdClothingHeadHatCowboyDeputySherif #LOP edit
+  # LOP edit start
+  - LPPNfsdClothingHeadHatCowboy
+  - LPPNfsdClothingHeadHatDeputySherif
+  - LPPNfsdClothingHeadHatCowboyDeputySherif
+  # LOP edit end
 
 - type: loadoutGroup
   id: DeputyNeck
