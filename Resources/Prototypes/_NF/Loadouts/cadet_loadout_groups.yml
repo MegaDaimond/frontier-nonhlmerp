@@ -26,7 +26,7 @@
   minLimit: 0
   loadouts:
   - CadetClothingHeadHatCadet
-  - LPPNfsdClothingHeadHatCowboy
+  - LPPNfsdClothingHeadHatCowboy # LOP edit
 
 - type: loadoutGroup
   id: CadetNeck
