@@ -5,7 +5,7 @@
   playTimeTracker: JobSecurityOfficer
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 36000 # 10 hours            LOP: С 12 до 10 часов
+      time: 36000 # LOP edit 43200<36000
     - !type:DepartmentTimeRequirement
       department: Security
       time: 21600 # 6 hours
