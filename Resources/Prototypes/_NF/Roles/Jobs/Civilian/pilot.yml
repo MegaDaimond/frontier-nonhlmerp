@@ -5,7 +5,7 @@
   playTimeTracker: JobPilot
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 18000 # LOP edit: С 15 до 5 часов
+      time: 18000 # LOP edit 43200<18000
   startingGear: PilotGear
   icon: "JobIconPilot"
   supervisors: job-supervisors-hire
