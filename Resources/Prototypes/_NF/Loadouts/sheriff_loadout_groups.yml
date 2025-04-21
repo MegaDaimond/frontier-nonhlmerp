@@ -23,7 +23,7 @@
   minLimit: 0
   loadouts:
   - SheriffClothingHeadHatSheriff
-  - LPPClothingHeadHatSherif #LOP edit
+  - LPPNfsdClothingHeadHatSherif #LOP edit
 
 - type: loadoutGroup
   id: SheriffNeck

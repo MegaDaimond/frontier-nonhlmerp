@@ -28,12 +28,12 @@
   loadouts:
   - DeputyClothingHeadHatDeputy
   - LPPNfsdClothingHeadHatCowboy #LOP edit
-  - LPPClothingHeadHatDeputySherif #LOP edit
+  - LPPNfsdClothingHeadHatDeputySherif #LOP edit
   - LPPNfsdClothingHeadHatCowboyDeputySherif #LOP edit
   fallbacks:
   - DeputyClothingHeadHatDeputy
   - LPPNfsdClothingHeadHatCowboy #LOP edit
-  - LPPClothingHeadHatDeputySherif #LOP edit
+  - LPPNfsdClothingHeadHatDeputySherif #LOP edit
   - LPPNfsdClothingHeadHatCowboyDeputySherif #LOP edit
 
 - type: loadoutGroup
