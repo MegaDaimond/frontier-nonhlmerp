@@ -5,14 +5,14 @@
   playTimeTracker: JobSecurityOfficer
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 43200 # 12 hours
+      time: 36000 # 10 hours            LOP: С 12 до 10 часов
     - !type:DepartmentTimeRequirement
       department: Security
       time: 21600 # 6 hours
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
-      time: 360000 # 100 hours
+      time: 180000 # 50 hours LOP edit: С 100 до 50 часов
   startingGear: DeputyGear
   icon: JobIconDeputy
   supervisors: job-supervisors-sergeant

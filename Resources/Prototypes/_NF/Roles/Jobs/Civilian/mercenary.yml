@@ -5,7 +5,7 @@
   playTimeTracker: JobMercenary
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 108000
+      time: 43200 # LOP edit: Не ну 40 часов на мерка это пиздец
   startingGear: MercenaryGear
   canBeAntag: true
   icon: "JobIconMercenary"

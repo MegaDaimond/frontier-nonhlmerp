@@ -7,12 +7,12 @@
   alwaysUseSpawner: true
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 72000 # 20 hrs
+      time: 48000 # 20 hrs       LOP edit: С 20 до 15 часов
     - !type:RoleTimeRequirement
       role: JobSecurityGuard
       time: 10800 # 3 hrs as security guard
   canBeAntag: false
-  icon: "JobIconStc" 
+  icon: "JobIconStc"
   supervisors: job-supervisors-sr
   weight: 160
   displayWeight: 50 # Second from the top
