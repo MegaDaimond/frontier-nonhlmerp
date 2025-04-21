@@ -12,7 +12,7 @@
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
-      time: 180000 # 50 hours LOP edit: С 100 до 50 часов
+      time: 180000 # LOP edit 360000<180000
   startingGear: DeputyGear
   icon: JobIconDeputy
   supervisors: job-supervisors-sergeant
