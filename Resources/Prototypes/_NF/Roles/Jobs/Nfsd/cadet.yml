@@ -5,7 +5,7 @@
   playTimeTracker: JobSecurityCadet
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 7200 # 6 hours   LOP edit: с шести часов до трёх
+      time: 7200 # LOP edit 21600<7200
   startingGear: CadetGear
   icon: JobIconCadetNF
   supervisors: job-supervisors-cadet
