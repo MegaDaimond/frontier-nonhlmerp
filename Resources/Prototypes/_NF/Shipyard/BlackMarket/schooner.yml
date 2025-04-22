@@ -3,7 +3,7 @@
   parent: BaseVesselAntag
   name: Schooner
   description: "Небольшое деревянное судно с 2 центральными грузовыми отсеками" #LOP edit
-  price: 60000
+  price: 85000 # LOP edit повышаем цены!!!
   category: Medium
   group: BlackMarket
   shuttlePath: /Maps/_NewParadise/Shuttles/BlackMarket/schooner.yml # LOP edit

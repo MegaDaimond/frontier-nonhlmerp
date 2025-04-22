@@ -14,7 +14,7 @@
   parent: BaseVessel
   name: NT Vagabond
   description: "Легко адаптируемое судно, пилоты которого приспособили его для самых разных целей! Попробуй и ты!" #LOP Edit
-  price: 60000
+  price: 95000 # LOP edit повышаем цены!!!
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/vagabond.yml # LOP edit
