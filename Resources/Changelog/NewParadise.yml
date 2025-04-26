@@ -496,3 +496,11 @@
   id: 38
   time: '2025-04-26T19:39:06.0000000+00:00'
   url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/107
+- author: SanitarDurkovic
+  changes:
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0427\u0451\u0440\u043D\
+      \u044B\u0439 \u0440\u044B\u043D\u043E\u043A"
+    type: Add
+  id: 39
+  time: '2025-04-26T21:06:20.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/106
