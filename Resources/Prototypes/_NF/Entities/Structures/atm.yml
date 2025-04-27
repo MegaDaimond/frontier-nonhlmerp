@@ -232,11 +232,6 @@
   components:
   - type: StationBankATM
     account: Nfsd
-#LOP edit start
-  - type: BankATM
-    taxAccounts:
-      Frontier: 0.5 # The scandal!
-#LOP edit end
 
 - type: entity
   parent: BaseStationAdminBankATM
