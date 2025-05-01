@@ -10,10 +10,6 @@
     - type: Body
       prototype: Tajaran
       requiredLegs: 2
-      hideLayersOnEquip: # Frontier
-    - Hair
-    - HeadTop
-    - Snout
     - type: Vocal
       sounds:
         Male: MaleFelinid
@@ -26,8 +22,7 @@
       sprite: _NewParadise/Mobs/Species/Tajaran/parts.rsi
       state: tajaran_m
     - type: Damageable
-      damageContainer: Biological
-      damageModifierSet: Scale
+      damageModifierSet: Vulpkanin
     - type: MeleeWeapon
       hidden: true
       soundHit:
@@ -56,14 +51,11 @@
       speechVerb: Tajaran
     - type: Inventory
       speciesId: tajaran
-    # - type: EmotePanel
-      # race: Tajar
     - type: InteractionPopup
       successChance: 1
       interactSuccessString: pat-success-generic
       interactSuccessSound: /Audio/Effects/thudswoosh.ogg
       messagePerceivedByOthers: pat-success-generic-others
-    - type: Carriable # Carrying system from nyanotrasen.
 
 - type: entity
   save: false
