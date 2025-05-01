@@ -87,6 +87,10 @@
   - type: StaticPrice
     price: 50
     vendPrice: 15000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.75
+    coolingCoefficient: 0.5
+
 - type: entity
   parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing]
   id: LPPlothingOuterArmorSwatEpistemic
@@ -115,6 +119,9 @@
   - type: StaticPrice
     price: 35
     vendPrice: 12000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.75
+    coolingCoefficient: 0.5
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing]
@@ -146,3 +153,6 @@
   - type: StaticPrice
     price: 65
     vendPrice: 20000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.75
+    coolingCoefficient: 0.5
