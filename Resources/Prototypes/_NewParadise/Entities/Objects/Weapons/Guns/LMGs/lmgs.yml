@@ -56,7 +56,7 @@
     zeroVisible: true
   - type: StaticPrice
     price: 150
-    vendPrice: 105000
+    vendPrice: 155000
 
 - type: entity
   name: Armalite "Stoner-25"

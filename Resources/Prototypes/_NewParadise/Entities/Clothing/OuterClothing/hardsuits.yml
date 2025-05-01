@@ -83,7 +83,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitSecurityPilot
   - type: StaticPrice
     price: 100
-    vendPrice: 37500
+    vendPrice: 67500
 #- type: entity
 #  parent: ClothingOuterHardsuitBase
 #  id: LPPClothingOuterHardsuitSecurityEng
@@ -177,7 +177,7 @@
     clothingPrototype: LPPClothingHeadHelmetMikhelm
   - type: StaticPrice
     price: 100
-    vendPrice: 45000
+    vendPrice: 125000
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -240,7 +240,7 @@
     sprintModifier: 0.9
   - type: StaticPrice
     price: 250
-    vendPrice: 80000
+    vendPrice: 140000
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -275,7 +275,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICCommand
   - type: StaticPrice
     price: 450
-    vendPrice: 77500
+    vendPrice: 197500
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -368,11 +368,11 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.4
-        Slash: 0.4
+        Blunt: 0.65
+        Slash: 0.65
         Piercing: 0.4
         Caustic: 0.4
-        Heat: 0.5
+        Heat: 0.65
         Radiation: 0.1
         Shock: 0.4
         Cold: 0.4
@@ -382,14 +382,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: ClothingSpeedModifier
-    walkModifier: 1.0
+    walkModifier: 0.95
     sprintModifier: 0.95
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitInteq
   - type: StaticPrice
     price: 250
-    vendPrice: 122500
+    vendPrice: 292500
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -427,7 +427,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitUpgradedMining
   - type: StaticPrice
     price: 125
-    vendPrice: 57500
+    vendPrice: 77500
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -465,7 +465,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitMiningPlus
   - type: StaticPrice
     price: 75
-    vendPrice: 57500
+    vendPrice: 87500
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -503,7 +503,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitMiningJuggernaut
   - type: StaticPrice
     price: 125
-    vendPrice: 60000
+    vendPrice: 80000
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -544,7 +544,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitDonkTrooper
   - type: StaticPrice
     price: 250
-    vendPrice: 97500
+    vendPrice: 200500
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -584,7 +584,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitDonkElite
   - type: StaticPrice
     price: 500
-    vendPrice: 100250
+    vendPrice: 200250
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -624,7 +624,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitDonkMedic
   - type: StaticPrice
     price: 300
-    vendPrice: 97500
+    vendPrice: 197500
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -745,7 +745,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitCybersunBasic
   - type: StaticPrice
     price: 250
-    vendPrice: 100500
+    vendPrice: 200000
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -919,8 +919,8 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.75
-        Slash: 0.75
+        Blunt: 0.7
+        Slash: 0.7
         Piercing: 0.75
         Caustic: 0.75
         Heat: 0.5
@@ -939,7 +939,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitGorlexMedic
   - type: StaticPrice
     price: 250
-    vendPrice: 95000
+    vendPrice: 195000
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -979,7 +979,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitGorlexSoldier
   - type: StaticPrice
     price: 2500
-    vendPrice: 106500
+    vendPrice: 206500
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC2Contraband]
@@ -1020,7 +1020,7 @@
       collection: LPPHeavyHardsuitMovement
   - type: StaticPrice
     price: 150
-    vendPrice: 62500
+    vendPrice: 112500
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -1058,7 +1058,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitSpatioUpgraded
   - type: StaticPrice
     price: 120
-    vendPrice: 57500
+    vendPrice: 87500
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC2Contraband]
@@ -1091,7 +1091,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitCombatAlternative
   - type: StaticPrice
     price: 150
-    vendPrice: 65000
+    vendPrice: 197500
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable]

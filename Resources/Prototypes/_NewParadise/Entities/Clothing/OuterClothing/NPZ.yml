@@ -35,7 +35,7 @@
     clothingPrototype: LPPClothingOuterHardsuitHelmetEliteNPZ
   - type: StaticPrice
     price: 500
-    vendPrice: 175000
+    vendPrice: 275000
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
@@ -120,7 +120,7 @@
     clothingPrototype: LPPClothingOuterHardsuitHelmetNPZ
   - type: StaticPrice
     price: 250
-    vendPrice: 101250
+    vendPrice: 171250
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
@@ -185,7 +185,7 @@
     clothingPrototype: LPPClothingOuterHardsuitHelmetSpecopsNPZ
   - type: StaticPrice
     price: 300
-    vendPrice: 155000
+    vendPrice: 215000
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
