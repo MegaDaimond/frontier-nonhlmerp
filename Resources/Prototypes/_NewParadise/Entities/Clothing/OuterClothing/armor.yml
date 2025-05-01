@@ -60,7 +60,7 @@
     vendPrice: 17000
 
 - type: entity
-  parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing]
+  parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing, BaseC2Contraband]
   id: LPPlothingOuterArmorSwatAlternative
   name: Lightened swat suit
   description: Composed of semi-flexible polycarbonate, reinforced materials, and integrated ballistic plating, it offers exceptional protection against melee, bullet, and environmental threats, ensuring officers remain combat-ready in the harshest conditions.
@@ -92,7 +92,7 @@
     coolingCoefficient: 0.5
 
 - type: entity
-  parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing]
+  parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing, BaseC2Contraband]
   id: LPPlothingOuterArmorSwatEpistemic
   name: Epistemic swat suit
   description: Composed of semi-flexible polycarbonate, reinforced materials, and integrated ballistic plating, it offers exceptional protection against melee, bullet, and environmental threats, ensuring officers remain combat-ready in the harshest conditions.
@@ -124,7 +124,7 @@
     coolingCoefficient: 0.5
 
 - type: entity
-  parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing]
+  parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing, BaseC2Contraband]
   id: LPPClothingOuterArmorSwat
   name: swat suit
   description: Composed of semi-flexible polycarbonate, reinforced materials, and integrated ballistic plating, it offers exceptional protection against melee, bullet, and environmental threats, ensuring officers remain combat-ready in the harshest conditions.
