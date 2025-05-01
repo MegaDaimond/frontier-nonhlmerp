@@ -57,6 +57,9 @@
       interactSuccessSound: /Audio/Effects/thudswoosh.ogg
       messagePerceivedByOthers: pat-success-generic-others
     - type: MobState
+      allowedStates:
+        - Alive
+        - Dead
 
 - type: entity
   save: false
