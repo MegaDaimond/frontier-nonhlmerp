@@ -73,8 +73,12 @@ namespace Content.Client.Lobby
             int sponsorTier = 0;
             if (_sponsorsManager.TryGetInfo(out var sponsor))
             {
-                allowedMarkings = sponsor.AllowedMarkings.ToList();
                 sponsorTier = sponsor.Tier;
+                if (sponsorTier > 3)
+                {
+                    var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
+                    allowedMarkings = marks.Concat(sponsor.AllowedMarkings).ToList();
+                }
             }
 #endif
             profile.EnsureValid(_playerManager.LocalSession!, collection, allowedMarkings
