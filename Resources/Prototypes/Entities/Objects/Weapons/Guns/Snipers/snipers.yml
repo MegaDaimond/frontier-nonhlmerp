@@ -129,7 +129,7 @@
     - SemiAuto
   - type: UseDelayOnShoot
   - type: UseDelay
-    delay: 1.5 #LOP edit
+    delay: 1.5 #LOP edit 8<1.5
   - type: BallisticAmmoProvider
     whitelist:
       tags:
