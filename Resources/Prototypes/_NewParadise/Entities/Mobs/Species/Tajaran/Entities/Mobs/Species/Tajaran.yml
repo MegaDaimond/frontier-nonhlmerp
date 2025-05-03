@@ -15,14 +15,15 @@
         Male: MaleFelinid
         Female: FemaleFelinid
         Unsexed: FemaleFelinid
-    #- type: Carriable
+    - type: Carriable
     - type: Hunger  # tajaran are already at a disadvantage against the vulpkanin, so the baseDecayRate is unchanged
     - type: Thirst
     - type: Icon
-      sprite: _NewParadise/Mobs/Species/Tajaran/parts.rsi
+      sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
       state: tajaran_m
     - type: Damageable
-      damageModifierSet: Vulpkanin
+      damageContainer: Biological
+      damageModifierSet: Scale
     - type: MeleeWeapon
       hidden: true
       soundHit:
@@ -49,17 +50,23 @@
     - type: Perishable
     - type: Speech
       speechVerb: Tajaran
+      speechSounds: Alto
+      allowedEmotes:
+      - Hiss
+      - Meow
+      - Mew
+      - Growl
+      - Purr
     - type: Inventory
       speciesId: tajaran
-    - type: InteractionPopup
-      successChance: 1
-      interactSuccessString: pat-success-generic
-      interactSuccessSound: /Audio/Effects/thudswoosh.ogg
-      messagePerceivedByOthers: pat-success-generic-others
-    - type: MobState
-      allowedStates:
-        - Alive
-        - Dead
+    - type: Wagging
+    - type: Respirator
+      damage:
+        types:
+          Asphyxiation: 2.0
+      damageRecovery:
+        types:
+          Asphyxiation: -2.0
 
 - type: entity
   save: false

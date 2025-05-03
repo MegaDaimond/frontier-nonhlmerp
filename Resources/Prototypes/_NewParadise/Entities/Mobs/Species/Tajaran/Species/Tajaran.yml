@@ -8,9 +8,15 @@
   markingLimits: MobTajaranMarkingLimits
   dollPrototype: LPPMobTajaranDummy
   skinColoration: Hues
-  # maleFirstNames: firstMaleTajaran
-  # femaleFirstNames: firstFemaleTajaran
-  # lastNames: TajaranLast
+  maleFirstNames: firstMaleTajaran
+  femaleFirstNames: firstFemaleTajaran
+  lastNames: TajaranLast
+  minHeight: 0.7
+  defaultHeight: 0.8
+  maxHeight: 1
+  minWidth: 0.60
+  defaultWidth: 0.8
+  maxWidth: 1.05
 
 - type: speciesBaseSprites
   id: MobTajaranSprites
@@ -35,7 +41,6 @@
 
 - type: markingPoints
   id: MobTajaranMarkingLimits
-  onlyWhitelisted: false
   points:
     FacialHair:
       points: 0
