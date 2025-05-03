@@ -8,9 +8,9 @@
   markingLimits: MobTajaranMarkingLimits
   dollPrototype: LPPMobTajaranDummy
   skinColoration: Hues
-  maleFirstNames: firstMaleTajaran
-  femaleFirstNames: firstFemaleTajaran
-  lastNames: TajaranLast
+  maleFirstNames: NamesVulpkaninMale
+  femaleFirstNames: NamesVulpkaninFemale
+  lastNames: NamesVulpkaninLast
 
 - type: speciesBaseSprites
   id: MobTajaranSprites
