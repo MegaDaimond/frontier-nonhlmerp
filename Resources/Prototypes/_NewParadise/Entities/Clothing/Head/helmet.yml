@@ -181,7 +181,7 @@
     damageCoefficient: 0.9
   - type: BreathMask
   - type: Item
-    heldPrefix: open
+    # heldPrefix: open
   - type: HideLayerClothing
     slots: []
 
@@ -222,7 +222,7 @@
     damageCoefficient: 0.9
   - type: BreathMask
   - type: Item
-    heldPrefix: open
+    # heldPrefix: open
   - type: HideLayerClothing
     slots: []
 
@@ -280,7 +280,7 @@
     damageCoefficient: 0.9
   - type: BreathMask
   - type: Item
-    heldPrefix: open
+    # heldPrefix: open
   - type: HideLayerClothing
     slots: []
 
