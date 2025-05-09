@@ -86,10 +86,10 @@
     sprintModifier: 1
   - type: StaticPrice
     price: 50
-    vendPrice: 15000
+    vendPrice: 45000
   - type: TemperatureProtection
-    heatingCoefficient: 0.75
-    coolingCoefficient: 0.5
+    heatingCoefficient: 0.95
+    coolingCoefficient: 0.7
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing, BaseC2Contraband]
@@ -118,10 +118,10 @@
     sprintModifier: 1
   - type: StaticPrice
     price: 35
-    vendPrice: 12000
+    vendPrice: 42000
   - type: TemperatureProtection
-    heatingCoefficient: 0.75
-    coolingCoefficient: 0.5
+    heatingCoefficient: 0.95
+    coolingCoefficient: 0.7
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing, BaseC2Contraband]
@@ -152,7 +152,7 @@
     clothingPrototype: LPPClothingHeadHelmetSwat
   - type: StaticPrice
     price: 65
-    vendPrice: 20000
+    vendPrice: 40000
   - type: TemperatureProtection
-    heatingCoefficient: 0.75
-    coolingCoefficient: 0.5
+    heatingCoefficient: 0.95
+    coolingCoefficient: 0.7

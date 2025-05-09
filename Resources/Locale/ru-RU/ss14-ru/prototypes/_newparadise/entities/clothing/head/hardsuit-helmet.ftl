@@ -52,3 +52,5 @@ ent-LPPClothingHeadHelmetHardsuitSpatioUpgraded = шлем GRT|HpI-004
     .desc = Нет, это не жучиная броня.
 ent-LPPClothingHeadHelmetHardsuitCombatAlternative = шлем GRT|FPA-88
     .desc = Тук-тук. Кто там? Закон. Какой закон? Корпоративный.
+ent-LPPClothingHeadHelmetHardsuitAcientsapper = acient sapper hardsuit helmet
+    .desc = 360 градусов защиты головы.
