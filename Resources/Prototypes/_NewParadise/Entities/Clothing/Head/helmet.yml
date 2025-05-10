@@ -145,7 +145,7 @@
     vendPrice: 9500
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadEVAHelmetBase
   id: LPPClothingHeadHelmetSwatAlternative
   categories: [ HideSpawnMenu ]
   name: Lightened SWAT armor helmet
@@ -162,7 +162,7 @@
       map: ["foldedLayer"]
   - type: Clothing
     sprite: _NewParadise/Clothing/Head/Helmets/swatalt.rsi
-    equippedPrefix: open
+    # equippedPrefix: open
   - type: Armor
     modifiers:
       coefficients:
@@ -170,7 +170,7 @@
         Slash: 0.9
         Piercing: 0.9
   - type: Foldable
-    folded: true
+    folded: false
     canFoldInsideContainer: true
     unfoldVerbText: fold-zip-verb
     foldVerbText: fold-unzip-verb
@@ -179,16 +179,14 @@
     foldedHeldPrefix: open
   - type: ExplosionResistance
     damageCoefficient: 0.9
-  - type: PressureProtection
-    lowPressureMultiplier: 100
   - type: BreathMask
   - type: Item
-    heldPrefix: open
+    # heldPrefix: open
   - type: HideLayerClothing
     slots: []
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadEVAHelmetBase
   id: LPPClothingHeadHelmetSwatEpistemic
   categories: [ HideSpawnMenu ]
   name: Epistemic SWAT armor helmet
@@ -205,7 +203,7 @@
       map: ["foldedLayer"]
   - type: Clothing
     sprite: _NewParadise/Clothing/Head/Helmets/swatepistemic.rsi
-    equippedPrefix: open
+    # equippedPrefix: open
   - type: Armor
     modifiers:
       coefficients:
@@ -213,7 +211,7 @@
         Slash: 0.9
         Piercing: 0.9
   - type: Foldable
-    folded: true
+    folded: false
     canFoldInsideContainer: true
     unfoldVerbText: fold-zip-verb
     foldVerbText: fold-unzip-verb
@@ -222,11 +220,9 @@
     foldedHeldPrefix: open
   - type: ExplosionResistance
     damageCoefficient: 0.9
-  - type: PressureProtection
-    lowPressureMultiplier: 100
   - type: BreathMask
   - type: Item
-    heldPrefix: open
+    # heldPrefix: open
   - type: HideLayerClothing
     slots: []
 
@@ -248,7 +244,7 @@
         Piercing: 0.95
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadEVAHelmetBase
   id: LPPClothingHeadHelmetSwat
   categories: [ HideSpawnMenu ]
   name: SWAT armor helmet
@@ -265,7 +261,7 @@
       map: ["foldedLayer"]
   - type: Clothing
     sprite: _NewParadise/Clothing/Head/Helmets/swat.rsi
-    equippedPrefix: open
+    # equippedPrefix: open
   - type: Armor
     modifiers:
       coefficients:
@@ -273,7 +269,7 @@
         Slash: 0.85
         Piercing: 0.85
   - type: Foldable
-    folded: true
+    folded: false
     canFoldInsideContainer: true
     unfoldVerbText: fold-zip-verb
     foldVerbText: fold-unzip-verb
@@ -282,11 +278,9 @@
     foldedHeldPrefix: open
   - type: ExplosionResistance
     damageCoefficient: 0.9
-  - type: PressureProtection
-    lowPressureMultiplier: 100
   - type: BreathMask
   - type: Item
-    heldPrefix: open
+    # heldPrefix: open
   - type: HideLayerClothing
     slots: []
 
