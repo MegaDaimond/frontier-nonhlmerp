@@ -42,3 +42,33 @@
       whitelist:
         tags:
           - PirateUplink
+
+- type: listing
+  id: LPPUplinkWeaponRevolverRT46
+  name:  uplink-pirate-weaponrevolverrt46-name
+  description: uplink-pirate-weaponrevolverrt46-desc
+  productEntity: LPPWeaponRevolverRT46
+  cost:
+    Doubloon: 15
+  categories:
+    - UplinkPirateWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing
+  id: LPPUplinkClothingOuterHardsuitAcientSapper
+  name:  uplink-pirate-hardsuitacientsapper-name
+  description: uplink-pirate-hardsuitacientsapper-desc
+  productEntity: LPPClothingOuterHardsuitAcientSapper
+  cost:
+    Doubloon: 30
+  categories:
+    - UplinkPirateHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
