@@ -51,3 +51,4 @@ ent-NFTobaccoPouch = мешочек для табака
 ent-NFPouchPunk = мешочек панка
     .desc = { ent-NFPouchBase.desc }
 ent-NFGoblinMadeTrashPouch = мешочек для мусора
+    .desc = { ent-RecyclableItemPlasticSmall.desc }
