@@ -15,7 +15,7 @@ seeds-bees-display-name = Соты
 seeds-everyspice-name = любаспеция
 seeds-everyspice-display-name = семена любаспеции
 seeds-monkanana-name = обезьнаны
-seeds-monkanana-display-name = Деревья обезьнанов
+seeds-monkanana-display-name = деревья обезьнанов
 # Should be in seed-component
 botany-seed-jar-name = Банка с { $seedName } { $seedNoun }
 # Missing upstream definitions
