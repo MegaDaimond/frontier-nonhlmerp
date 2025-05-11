@@ -49,7 +49,7 @@
   description: uplink-pirate-weaponrevolverrt46-desc
   productEntity: LPPWeaponRevolverRT46
   cost:
-    Doubloon: 15
+    Doubloon: 28
   categories:
     - UplinkPirateWeapons
   conditions:

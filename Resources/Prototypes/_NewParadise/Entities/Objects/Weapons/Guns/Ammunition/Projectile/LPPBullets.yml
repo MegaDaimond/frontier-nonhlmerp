@@ -193,9 +193,9 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 20
-        Structural: 450
-    penetrationThreshold: 470
+        Blunt: 17.5
+        Structural: 350
+    penetrationThreshold: 370
     penetrationDamageTypeRequirement:
     - Structural
   - type: StaminaDamageOnCollide
