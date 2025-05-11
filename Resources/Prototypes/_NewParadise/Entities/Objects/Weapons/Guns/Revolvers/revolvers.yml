@@ -129,7 +129,7 @@
         - CartridgeAntiMateriel
     proto: CartridgeAntiMateriel
     capacity: 3
-    chambers: [ True, True, null ]
+    chambers: [ True, True, True ]
     ammoSlots: [ null, null, null ]
   - type: UseDelayOnShoot
   - type: UseDelay
