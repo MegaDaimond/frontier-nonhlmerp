@@ -239,11 +239,8 @@ public sealed partial class MarkingPicker : Control
                 if (_sponsorsManager.TryGetInfo(out var sponsor))
                 {
                     bool havemarks = false;
-                    if (sponsor.Tier > 3)
-                    {
-                        var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                        havemarks = marks.Contains(marking.ID);
-                    }
+                    if (sponsor.Tier >= 3)
+                        havemarks = true;
                     item.Disabled = !(sponsor.AllowedMarkings.Contains(marking.ID) || sponsor.AllowedMarkings.Contains("ALL") || havemarks);
                 }
 #endif
@@ -526,6 +523,17 @@ public sealed partial class MarkingPicker : Control
                 markingObject.SetColor(i, CurrentSkinColor);
             }
         }
+
+        // Frontier: Color overwrite
+        if (_markingManager.MustMatchColor(_currentSpecies, marking.BodyPart, out var _, _prototypeManager) is Color forcedColor)
+        {
+            // Color everything in forced color
+            for (var i = 0; i < marking.Sprites.Count; i++)
+            {
+                markingObject.SetColor(i, forcedColor);
+            }
+        }
+        // End Frontier
 
         markingObject.Forced = Forced;
 
