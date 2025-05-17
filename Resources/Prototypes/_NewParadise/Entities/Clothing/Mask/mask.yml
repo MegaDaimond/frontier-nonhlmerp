@@ -243,6 +243,27 @@
     sprite: _NewParadise/Clothing/Mask/widebalaclava.rsi
 
 - type: entity
+  parent: ClothingMaskGasSwat
+  id: LPPClothingMaskNPZGasmask
+  name: NPZ special forces gas mask
+  description: An improved model of a special forces gas mask from distant corporate wars. It will be able to protect the face from various fragments. Eye protection from flash and welding is guaranteed.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Mask/NPZgas.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Mask/NPZgas.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: IdentityBlocker
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
   parent: ClothingMaskGas
   id: LPPClothingMaskNeckGaiterLoneOps
   name: neck gaiter

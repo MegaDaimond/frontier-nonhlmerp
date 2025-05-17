@@ -33,6 +33,28 @@
 
 - type: entity
   parent: ClothingHeadBase
+  id: LPPClothingHeadHatBeretNPZ
+  name: NPZ Beret
+  description: Remember what you're fighting for. (For humanity, in case you've forgotten)
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/upgberet.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/upgberet.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatCapNPZ
+  name: NPZ Cap
+  description: The cap of the representatives of the armed forces of the NPZ, strikes fear into the hearts of xenophiles, there is nothing more to say.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/upgofficerhat.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/upgofficerhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
   id: LPPClothingHeadHatMaid
   name: Maid's cap
   description: An item of clothing that is an integral part of any elite maid.
