@@ -135,7 +135,7 @@ namespace Content.Server.Preferences.Managers
             var curPrefs = prefsData.Prefs!;
             var session = _playerManager.GetSessionById(userId);
 
-            //LOP edit start
+            // LOP edit start
             var allowedMarkings = new List<string>();
 #if LOP
             int sponsorTier = 0;
@@ -156,7 +156,7 @@ namespace Content.Server.Preferences.Managers
             , sponsorTier
 #endif
             );
-            //LOP edit end
+            // LOP edit end
 
             var profiles = new Dictionary<int, ICharacterProfile>(curPrefs.Characters)
             {
@@ -410,7 +410,7 @@ namespace Content.Server.Preferences.Managers
 
             return new PlayerPreferences(prefs.Characters.Select(p =>
             {
-                //LOP edit start
+                // LOP edit start
                 var allowedMarkings = new List<string>();
 #if LOP
                 int sponsorTier = 0;
@@ -422,7 +422,7 @@ namespace Content.Server.Preferences.Managers
                     allowedMarkings = marks.ToList();
                 }
 #endif
-                //LOP edit end
+                // LOP edit end
                 return new KeyValuePair<int, ICharacterProfile>(p.Key, p.Value.Validated(session, collection, allowedMarkings
 #if LOP
                 , sponsorTier
