@@ -403,10 +403,12 @@
   - type: Armor
     modifiers:
       coefficients:
+        # LOP edit start
         Blunt: 0.7
         Slash: 0.7
         Piercing: 0.7
         Heat: 0.25
+        # LOP edit end
         Radiation: 0.4
         Caustic: 0.6
   - type: ClothingSpeedModifier
