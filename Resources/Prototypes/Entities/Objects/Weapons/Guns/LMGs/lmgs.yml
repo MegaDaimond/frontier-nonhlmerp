@@ -78,6 +78,7 @@
         Blunt: 3
 
 - type: entity
+  abstract: true # Frontier: use NF variant
   name: L6 SAW
   id: WeaponLightMachineGunL6
   parent: [BaseWeaponLightMachineGun, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
@@ -97,6 +98,7 @@
   - type: Appearance
 
 - type: entity
+  abstract: true # Frontier: use NF variant
   name: L6C ROW
   id: WeaponLightMachineGunL6C
   parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: added BaseC3SyndicateContraband

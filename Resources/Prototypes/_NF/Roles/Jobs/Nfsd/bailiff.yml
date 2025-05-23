@@ -50,8 +50,8 @@
   storage:
     back:
     - Flash
-    - MagazinePistol
-    - MagazinePistolRubber
+    - NFMagazineHighCapacityPistol35Overpressure
+    - NFMagazineHighCapacityPistol35Rubber
     - BaseSecurityUplinkRadioOfficer
     - ShipVoucherNfsdBailiff
     - RubberStampBailiff
