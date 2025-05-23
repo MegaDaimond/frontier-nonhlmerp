@@ -13,6 +13,7 @@
   - type: Gun
     soundGunshot:
       path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_alt.ogg
+    fireRate: 1.75
   - type: StaticPrice
     price: 150
     vendPrice: 61500

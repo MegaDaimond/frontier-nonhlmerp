@@ -560,6 +560,7 @@
     - MonkeyWearable
     - Hardsuit
     - WhitelistChameleon
+    - HidesTail # LOP edit
 # LOP edit start
   - type: StaticPrice
     price: 275
