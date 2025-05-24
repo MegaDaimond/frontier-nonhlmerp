@@ -5,6 +5,7 @@
   priority: 7
   children:
   - ShipyardAiSun # LOP edit
+  - ShipyardAdder
   - ShipyardAkupara
   - ShipyardAmbition
   - ShipyardApothecary
@@ -45,7 +46,6 @@
   - ShipyardNook
   - ShipyardPathfinder
   - ShipyardPhoenix
-  - ShipyardPioneer
   - ShipyardPlacebo
   - ShipyardProspector
   - ShipyardRetort
@@ -54,9 +54,15 @@
   - ShipyardSkipper
   - ShipyardSpirit
   - ShipyardStasis
+  - ShipyardSurveyor
   - ShipyardTide
   - ShipyardVagabond
   - ShipyardVitalis
+
+- type: guideEntry
+  id: ShipyardAdder
+  name: guide-entry-shipyard-adder
+  text: "/ServerInfo/_NF/Guidebook/Shipyard/Adder.xml"
 
 - type: guideEntry
   id: ShipyardAkupara
@@ -242,7 +248,7 @@
   id: ShipyardNightlight
   name: guide-entry-shipyard-nightlight
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Nightlight.xml"
-  
+
 - type: guideEntry
   id: ShipyardNook
   name: guide-entry-shipyard-nook
@@ -257,11 +263,6 @@
   id: ShipyardPhoenix
   name: guide-entry-shipyard-phoenix
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Phoenix.xml"
-
-- type: guideEntry
-  id: ShipyardPioneer
-  name: guide-entry-shipyard-pioneer
-  text: "/ServerInfo/_NF/Guidebook/Shipyard/Pioneer.xml"
 
 - type: guideEntry
   id: ShipyardPlacebo
@@ -302,6 +303,11 @@
   id: ShipyardStasis
   name: guide-entry-shipyard-stasis
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Stasis.xml"
+
+- type: guideEntry
+  id: ShipyardSurveyor
+  name: guide-entry-shipyard-surveyor
+  text: "/ServerInfo/_NF/Guidebook/Shipyard/Surveyor.xml"
 
 - type: guideEntry
   id: ShipyardVagabond
