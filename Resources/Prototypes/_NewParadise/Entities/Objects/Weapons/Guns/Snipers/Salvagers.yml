@@ -12,7 +12,7 @@
     size: Huge
   - type: AmmoCounter
   - type: Gun
-    fireRate: 4.5
+    fireRate: 2.25
     selectedMode: SemiAuto
     angleDecay: 45
     minAngle: 44
@@ -73,7 +73,7 @@
     size: Huge
   - type: AmmoCounter
   - type: Gun
-    fireRate: 5
+    fireRate: 2
     selectedMode: SemiAuto
     angleDecay: 45
     minAngle: 64
@@ -149,7 +149,7 @@
     minAngle: -63
     maxAngle: -63
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 8
+    rechargeCooldown: 3.75
     rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
   - type: BasicEntityAmmoProvider
     proto: LPPBulletLebel
@@ -208,7 +208,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/kinetic_accel.ogg
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 8
+    rechargeCooldown: 4.25
     rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
   - type: BasicEntityAmmoProvider
     proto: LPPBulletchargebarrage
@@ -254,7 +254,7 @@
     size: Small
   - type: AmmoCounter
   - type: Gun
-    fireRate: 1.2
+    fireRate: 3.5
     selectedMode: SemiAuto
     angleDecay: 45
     minAngle: 2
@@ -264,7 +264,7 @@
     soundGunshot:
       path: /Audio/Weapons/plasma_cutter.ogg
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 4
+    rechargeCooldown: 1.75
     rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
   - type: BasicEntityAmmoProvider
     proto: LPPBulletChargeWeak
