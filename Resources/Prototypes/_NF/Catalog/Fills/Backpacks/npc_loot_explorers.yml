@@ -61,7 +61,7 @@
     - id: SpaceCash500
       prob: 0.2
     # Weapons
-    - id: WeaponProtoKineticAccelerator
+    - id: NFWeaponPka
       prob: 0.4
     # LOP edit start
     - id: LPPweaponSchwarzlose
@@ -143,7 +143,7 @@
     - id: SpaceCash500
       prob: 0.2
     # Weapons
-    - id: WeaponProtoKineticAccelerator
+    - id: NFWeaponPka
       prob: 0.4
     # LOP edit start
     - id: LPPweaponSchwarzlose
@@ -250,7 +250,7 @@
     - id: SpaceCash500
       prob: 0.2
     # Weapons
-    - id: WeaponProtoKineticAccelerator
+    - id: NFWeaponPka
       prob: 0.4
       amount: 2
     # LOP edit start
@@ -314,6 +314,9 @@
       amount: 1
     - id: NFBlueprintEnergyPickaxe
       prob: 0.3
+      amount: 1
+    - id: NFWeaponPkaCannon
+      prob: 0.05
       amount: 1
     # LOP edit start
     - id: LPPWeaponSyndieGlaive

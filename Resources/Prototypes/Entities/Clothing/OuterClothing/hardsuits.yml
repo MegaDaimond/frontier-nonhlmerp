@@ -255,6 +255,7 @@
         Blunt: 0.6
         Slash: 0.6
         Piercing: 0.6
+        Heat: 0.8
         Caustic: 0.7
   - type: ClothingSpeedModifier
     walkModifier: 0.75
@@ -309,9 +310,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.5
-        Slash: 0.6
+        Blunt: 0.4
+        Slash: 0.5
         Piercing: 0.6
+        Heat: 0.8
         Caustic: 0.7
   - type: ClothingSpeedModifier
     walkModifier: 0.7
@@ -473,13 +475,14 @@
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.6
+    damageCoefficient: 0.5
   - type: Armor
     modifiers:
       coefficients:
         Blunt: 0.6
         Slash: 0.5
         Piercing: 0.5
+        Heat: 0.8
         Radiation: 0.5
         Caustic: 0.6
   - type: ClothingSpeedModifier
@@ -540,6 +543,8 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.5
+  #- type: StaminaResistance
+  #  damageCoefficient: 0.75
   - type: Armor
     modifiers:
       coefficients:
@@ -560,6 +565,7 @@
     - MonkeyWearable
     - Hardsuit
     - WhitelistChameleon
+    - HidesTail # LOP edit
 # LOP edit start
   - type: StaticPrice
     price: 275
@@ -590,7 +596,7 @@
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
   id: ClothingOuterHardsuitSyndieElite
   name: syndicate elite hardsuit
-  description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
+  description: An elite version of the blood-red hardsuit, with improved radiation resistance and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
@@ -606,6 +612,8 @@
     damageCoefficient: 0.2
   - type: FireProtection
     reduction: 0.8
+  #- type: StaminaResistance
+  #  damageCoefficient: 0.6
   - type: Armor
     modifiers:
       coefficients:
@@ -647,6 +655,8 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.5
+  #- type: StaminaResistance
+  #  damageCoefficient: 0.6
   - type: Armor
     modifiers:
       coefficients:
@@ -657,8 +667,8 @@
         Radiation: 0.25
         Caustic: 0.4
   - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommander
@@ -679,6 +689,8 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.3
+  #- type: StaminaResistance # Should not have stamina resistance, this is purely so people know it was not forgotten.
+  #  damageCoefficient: 0.99
   - type: Armor
     modifiers:
       coefficients:
@@ -694,6 +706,9 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCybersun
+  - type: Tag
+    tags:
+    - MonkeyWearable
 
 #Wizard Hardsuit
 - type: entity
@@ -765,7 +780,7 @@
 #Pirate EVA Suit (Deep Space EVA Suit)
 #Despite visually appearing like a softsuit, it functions exactly like a hardsuit would (parents off of base hardsuit, has resistances and toggleable clothing, etc.) so it goes here.
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC3PirateContraband, ContrabandClothing] # Frontier: added BaseC3PirateContraband, ContrabandClothing as parent
+  parent: [ClothingOuterHardsuitBase, BaseC3PirateContraband, ContrabandClothing] # Frontier: BaseMajorContraband<BaseC3PirateContraband, added ContrabandClothing as parent
   id:  ClothingOuterHardsuitPirateEVA
   name: deep space EVA suit
   suffix: Pirate
@@ -773,6 +788,8 @@
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi
+  - type: Item
+    size: Huge
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi
   - type: ExplosionResistance
@@ -796,13 +813,15 @@
 
 #Pirate Captain Hardsuit
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC3PirateContraband, ContrabandClothing] # Frontier: added BaseC3PirateContraband<ContrabandClothing as parent
+  parent: [ClothingOuterHardsuitBase, BaseC3PirateContraband, ContrabandClothing] # Frontier: BaseMajorContraband<BaseC3PirateContraband, added ContrabandClothing as parent
   id: ClothingOuterHardsuitPirateCap
   name: pirate captain's hardsuit
   description: An ancient armored hardsuit, perfect for defending against space scurvy and toolbox-wielding scallywags.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
+  - type: Item
+    size: Huge
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
   - type: PressureProtection
@@ -872,6 +891,8 @@
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTEngineer
+  - type: FireProtection
+    reduction: 0.8
 
 #ERT Medic Hardsuit
 - type: entity
@@ -946,6 +967,8 @@
     damageCoefficient: 0.2
   - type: FireProtection
     reduction: 0.8
+  - type: StaminaResistance
+    damageCoefficient: 0.15 # Needs 21 hits with a disabler to stun :godo:
   - type: Armor
     modifiers:
       coefficients:
@@ -992,6 +1015,8 @@
         Shock: 0.1
         Radiation: 0.1
         Caustic: 0.1
+  - type: ZombificationResistance
+    zombificationResistanceCoefficient: 0.25
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
