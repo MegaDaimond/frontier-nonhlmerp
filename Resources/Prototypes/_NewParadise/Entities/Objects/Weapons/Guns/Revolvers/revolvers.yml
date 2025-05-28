@@ -166,7 +166,7 @@
     slots:
     - Belt
   - type: RevolverAmmoProvider
-    proto: LPPNFCartridgeRifle60NonLethal
+    proto: LPPCartridgeAntiMaterielNonLethal
   - type: NFWeaponDetails
     class: weapon-details-class-revolver
 

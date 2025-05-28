@@ -94,9 +94,9 @@
   description: uplink-pirate-riotlasershield-desc
   productEntity: RiotLaserShield
   cost:
-    Doubloon: 4
+    Doubloon: 5
   categories:
-    - WeaponsUtility
+    - UplinkPirateUtility
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:
