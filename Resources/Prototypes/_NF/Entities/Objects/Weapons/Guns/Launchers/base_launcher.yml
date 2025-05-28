@@ -119,6 +119,7 @@
             - NFTrackingDart
             - NFCartridgeGrenade40mmEmp
             - NFCartridgeGrenade40mmFlash
+            - LOPminirocket
   - type: ChamberMagazineAmmoProvider
     autoCycle: false
     boltClosed: false
