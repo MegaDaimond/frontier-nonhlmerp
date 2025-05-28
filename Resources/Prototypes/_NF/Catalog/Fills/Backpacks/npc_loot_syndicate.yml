@@ -309,7 +309,8 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponRifleAssaultSmExpedition
-        prob: 0.1 #LOP edit
+         #LOP edit start
+        prob: 0.1
       - id: LPPWeaponRifleMakeshiftAK
         prob: 0.65 
         #LOP edit end
