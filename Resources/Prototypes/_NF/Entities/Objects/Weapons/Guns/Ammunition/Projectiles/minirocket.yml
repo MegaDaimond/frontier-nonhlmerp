@@ -11,8 +11,8 @@
       - state: grenade
   - type: ExplodeOnTrigger
   - type: Explosive
-    explosionType: DemolitionCharge
 #LOP edit start
+    explosionType: DemolitionCharge
     maxIntensity: 10.5
     intensitySlope: 6
     totalIntensity: 130
