@@ -1,5 +1,5 @@
 ent-LPPWeaponRifleARG = ARG rifle
-    .desc = Cheap rifle, went through many coflicts. Uses .30 caliber rifle cartridges.
+    .desc = Cheap rifle, went through many coflicts. Uses .20 caliber rifle cartridges.
 ent-LPPWeaponRifleHM10 = HM-10
     .desc = The old-style special forces assault rifle is not so relevant now, but it is still better than standard modern analogues. Uses .30 caliber rifle cartridges.
 ent-LPPWeaponRifleSTG144 = STG-144
@@ -8,8 +8,6 @@ ent-LPPWeaponRifleBR12ARavager = BR-12A "Ravager"
     .desc = Good bullpup system gun. Uses 5.56 rifle cartridges.
 ent-LPPWeaponRifleMK556Liberator = Waffle corp. MK-556 "Liberator"
     .desc = Good classic system gun. Uses 5.56 rifle cartridges.
-ent-LPPWeaponRifleBCR25r = BCR-25r
-    .desc = Small assault rifle bullpup configuration. It's constructed in the past century, uses .25 ammo.
 ent-LPPWeaponRifleMakeshiftAK = Makeshift'o AK
     .desc = Makeshift AK, made by some punks. Probably illegal.
 ent-LPPWeaponRifleLemas = LE-MAS
