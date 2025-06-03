@@ -79,4 +79,4 @@
     belt: ClothingBeltCultForceField
     back: ClothingBackpackBloodCultLootA
   inhand:
-    - LPPEldritchBlade #LOP edit EldritchBlade>LPPEldritchBlade
+    - LPPEldritchBlade # LOP edit EldritchBlade>LPPEldritchBlade
