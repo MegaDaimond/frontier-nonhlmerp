@@ -94,10 +94,10 @@
         - NFWeaponSubMachineGunDrozd # Frontier: WeaponSubMachineGunDrozd<NFWeaponSubMachineGunDrozd
         - NFWeaponEnergyRifleCarbine # Frontier: WeaponLaserCarbine<NFWeaponEnergyRifleCarbine
         - NFWeaponShotgunKammerer # Frontier: WeaponShotgunKammerer<NFWeaponShotgunKammerer
-#LOP edit start
+# LOP edit start
         - LPPWeaponRifleLemas
         - LPPlothingOuterArmorSwatEpistemic
-#LOP edit end
+# LOP edit end
       chance: 0.95 
       offset: 0.0
 
