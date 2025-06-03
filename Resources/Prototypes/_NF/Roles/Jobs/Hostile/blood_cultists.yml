@@ -10,7 +10,7 @@
     belt: ClothingBeltCultWebbing
     back: ClothingBackpackBloodCultLootA
   inhand:
-    - LPPWizardStaffMeleeBlood #LOP edit WizardStaffMeleeBlood>LPPWizardStaffMeleeBlood
+    - LPPWizardStaffMeleeBlood # LOP edit WizardStaffMeleeBlood>LPPWizardStaffMeleeBlood
 
 # Acolyte
 - type: startingGear
@@ -37,7 +37,7 @@
     belt: ClothingBeltCultWebbing
     back: ClothingBackpackBloodCultLootD
   inhand:
-    - LPPEldritchBlade #LOP edit EldritchBlade>LPPEldritchBlade
+    - LPPEldritchBlade # LOP edit EldritchBlade>LPPEldritchBlade
 
 # Cultist (Ranged)
 - type: startingGear
@@ -51,7 +51,7 @@
     back: ClothingBackpackBloodCultZealotLootA
     belt: ClothingBeltQuiverCrossbowFilledBolt
   inhand:
-    - LPPEldritchBlade #LOP edit EldritchBlade>LPPEldritchBlade
+    - LPPEldritchBlade # LOP edit EldritchBlade>LPPEldritchBlade
 
 # Cultist (Caster)
 - type: startingGear

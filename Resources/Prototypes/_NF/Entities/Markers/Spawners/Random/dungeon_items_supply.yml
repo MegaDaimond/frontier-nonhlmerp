@@ -125,17 +125,17 @@
     - ClothingOuterHardsuitSpatio
     - ClothingOuterHardsuitSalvage
     - ClothingOuterHardsuitLuxury
-#LOP edit start
+# LOP edit start
     - LPPClothingOuterHardsuitHunter
     - LPPClothingOuterHardsuitUpgradedMining
     - LPPClothingOuterHardsuitSpatioUpgraded
     - LPPClothingOuterHardsuitMiningPlus
-#LOP edit end
+# LOP edit end
     chance: 1
     offset: 0.0
     rarePrototypes:
     - ClothingOuterHardsuitMaximPrototype
-    - LPPClothingOuterHardsuitMiningJuggernaut #LOP edit
+    - LPPClothingOuterHardsuitMiningJuggernaut # LOP edit
     rareChance: 0.05
 
 # Lockers
@@ -198,11 +198,11 @@
     - SuitStorageNTSRA
     - SuitStorageMining
     - SuitStorageQuartermaster
-#LOP edit start
+# LOP edit start
     - LPPSuitStorageHunter
     - LPPSuitStorageUpgradedMining
     - LPPSuitStorageMiksuit
-#LOP edit end
+# LOP edit end
     rareChance: 0.05
 
 # Machines

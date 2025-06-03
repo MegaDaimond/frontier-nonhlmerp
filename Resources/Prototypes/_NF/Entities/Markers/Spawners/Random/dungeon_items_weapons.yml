@@ -146,11 +146,11 @@
     - WeaponCaseShortEnergySwordExpedition
     - WeaponCaseShortEnergyCutlassExpedition
     - WeaponCaseShortEnergySwordDoubleExpedition
-#LOP edit start
+# LOP edit start
     - LPPWeaponCaseShortEnergyBroadswordExpedition
     - LPPWeaponCaseHeavyEnergyAxeexpedition
     - LPPWeaponCaseHeavyEnergyscytheexpedition
-#LOP edit end
+# LOP edit end
     chance: 1.0
     offset: 0.0
 
@@ -184,7 +184,7 @@
     - WeaponCaseLongBarlowsBoltExpedition
     - WeaponCaseLongRepeaterExpedition
     - WeaponCaseLongSniperCeremonialExpedition
-#LPP edit start
+# LOP edit start
     - LPPWeaponCaseShortPistolninemileExpedition
     - LPPWeaponCaseShortM1911Expedition
     - LPPWeaponCaseShortGoldMk58Expedition
@@ -195,7 +195,7 @@
     - LPPWeaponCaseLongWeaponSniperLeverPravovedExpedition
     - LPPWeaponCaseLongM1GarandExpedition
     - LPPWeaponCaseShortSoleilExpedition
-#LOP edit end
+# LOP edit end
     chance: 1.0
     offset: 0.0
     rarePrototypes:
@@ -234,7 +234,7 @@
     - WeaponCaseLongSVSExpedition
     - WeaponCaseLongKammererExpedition
     - WeaponCaseShortLaserGunExpedition
-#LOP edit start
+# LOP edit start
     - LPPWeaponCaseShortPantherExpedition
     - LPPWeaponCaseShortInspectorCollectionExpedition
     - LPPWeaponCaseShortColtpeacemakerExpedition
@@ -248,7 +248,7 @@
     - LPPWeaponCaseShortPF20Expedition
     - LPPWeaponCaseLongRifleMakeshiftAKExpedition
     - LPPWeaponCaseLongRifleM14Expedition
-#LOP edit end
+# LOP edit end
     chance: 1.0
     offset: 0.0
     rarePrototypes:
@@ -283,18 +283,18 @@
     - WeaponCaseShortSvalinnExpedition
     - WeaponCaseLongHristovExpedition
     - WeaponCaseLongMusketExpedition
-#LOP edit start
+# LOP edit start
     - LPPWeaponCaseLongMAC21Expedition
     - LPPWeaponCaseLongIL20Expedition
     - LPPWeaponCaseLongWeaponRifleLemasExpedition
     - LPPWeaponCaseLongRifleM1AExpedition
     - LPPWeaponGoliathExpedition
-#LOP edit end
+# LOP edit end
     chance: 1.0
     offset: 0.0
     rarePrototypes:
     - SpawnDungeonLootGunT4
-    rareChance: 0.15 #LOP edit 0.05>0.15
+    rareChance: 0.15 # LOP edit 0.05>0.15
 
 #region guns T4
 - type: entity
@@ -324,7 +324,7 @@
     - WeaponCaseLongLaserCarbineExpedition
     - WeaponCaseLongXrayCannonExpedition
     - WeaponCaseLongTemperatureGunExpedition
-#LOP edit start
+# LOP edit start
     - LPPWeaponCaseLongLemingtonExpedition
     - LPPWeaponCaseLongRemington320bExpedition
     - LPPWeaponCaseLongTBS2SExpedition
@@ -336,7 +336,7 @@
     - LPPWeaponCaseLongM90Expedition
     - LPPWeaponCaseLongJudgeExpedition
     - LPPWeaponCaseLongRT46Expedition
-#LOP edit end
+# LOP edit end
     chance: 1.0
     offset: 0.0
     rarePrototypes:
@@ -368,11 +368,11 @@
     - WeaponCaseLongEnergyGunExpedition
     - WeaponCaseLongLaserCannonExpedition
     - WeaponCaseHeavyAsmgtExpeditions
-#LOP edit start
+# LOP edit start
     - LPPWeaponCaseShortHoSlaserPistolExpedition
     - LPPWeaponCaseShortNailGunExpedition
     - LPPWeaponCaseLongEnergyEM1GaussExpedition
-#LOp edit end
+# LOP edit end
     chance: 1.0
     offset: 0.0
 

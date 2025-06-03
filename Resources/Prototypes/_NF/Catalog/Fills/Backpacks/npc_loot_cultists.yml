@@ -61,10 +61,10 @@
       prob: 0.7
     - id: SpaceCash1000
       prob: 0.7
-#LOP edit start
+# LOP edit start
     - id: LPPCultNarsieDust
       prob: 0.08
-#LOP edit end
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -85,10 +85,10 @@
       prob: 0.25 #LOP edit
     - id: SpawnDungeonLootPartsEngi
       prob: 0.7
-#LOP edit start
+# LOP edit start
     - id: LPPCultNarsieDust
       prob: 0.08
-#LOP edit end
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -109,10 +109,10 @@
       prob: 0.7
     - id: SpaceCash1000
       prob: 0.7
-#LOP edit start
+# LOP edit start
     - id: LPPCultNarsieDust
       prob: 0.08
-#LOP edit end
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -132,10 +132,10 @@
       prob: 0.1 #LOP edit
     - id: SpawnDungeonLootPartsEngi
       prob: 0.7
-#LOP edit start
+# LOP edit start
     - id: LPPCultNarsieDust
       prob: 0.08
-#LOP edit end
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -172,10 +172,10 @@
       prob: 0.7
     - id: SpawnDungeonLootToolsAdvancedEngineering
       prob: 0.3
-#LOP edit start
+# LOP edit start
     - id: LPPCultNarsieDust
       prob: 0.08
-#LOP edit end
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -213,10 +213,10 @@
       prob: 0.5
     - id: SpawnDungeonLootToolsAdvancedEngineering
       prob: 0.4
-#LOP edit start
+# LOP edit start
     - id: LPPCultNarsieDust
       prob: 0.08
-#LOP edit end
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -243,10 +243,10 @@
       prob: 0.1 #LOP edit
     - id: SpawnDungeonLootPartsEngi
       prob: 0.7
-#LOP edit start
+# LOP edit start
     - id: LPPCultNarsieDust
       prob: 0.08
-#LOP edit end
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -268,14 +268,14 @@
       prob: 0.05
     # Bonus Loot T1
     - id: SpaceCash500
-      prob: 0.2 #LOP edit
+      prob: 0.2 # LOP edit
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
     - id: SpaceCash1000
       prob: 0.1 #LOP edit
-#LOP edit start
+# LOP edit start
     - id: LPPCultNarsieDust
       prob: 0.15
-#LOP edit end
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
