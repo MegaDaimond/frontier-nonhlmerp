@@ -23,7 +23,7 @@
     back: ClothingBackpackBloodCultLootB
     belt: ClothingBeltCultWebbing
   inhand:
-    - LPPEldritchBlade #LOP edit EldritchBlade>LPPEldritchBlade
+    - LPPEldritchBlade # LOP edit EldritchBlade>LPPEldritchBlade
 
 # Cultist (Melee)
 - type: startingGear
