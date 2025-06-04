@@ -13,6 +13,8 @@ using Robust.Shared.Input;
 using Robust.Shared.Player;
 using Robust.Shared.Utility;
 using static Robust.Client.UserInterface.Controls.LineEdit;
+using System.Linq; // LOP edit
+
 
 namespace Content.Client.UserInterface.Systems.Chat.Widgets;
 
@@ -153,7 +155,7 @@ public partial class ChatBox : UIWidget
 
     private void OnChannelFilter(ChatChannel channel, bool active)
     {
-        Contents.Clear();
+        ClearChatContents(); // LOP edit
 
         foreach (var message in _controller.History)
         {
