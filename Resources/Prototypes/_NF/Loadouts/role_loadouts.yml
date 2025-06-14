@@ -581,6 +581,7 @@
   - NFPirateForcedOuterClothing
   - NFPirateShoes
   - NFPirateFace
+  - NFPirateEars
   - ContractorBoxSurvival
   - NFPiratePDA
   - ContractorWallet
@@ -607,6 +608,7 @@
   - NFPirateForcedOuterClothing
   - NFPirateShoes
   - NFPirateFace
+  - NFPirateEars
   - ContractorBoxSurvival
   - NFPirateFirstMatePDA
   - ContractorWallet
@@ -633,6 +635,7 @@
   - NFPirateForcedOuterClothing
   - NFPirateShoes
   - NFPirateFace
+  - NFPirateCaptainEars
   - ContractorBoxSurvival
   - NFPirateCaptainPDA
   - PirateCaptainWallet
