@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NR Investigator
   description: "Средний исследовательский шаттл, предназначенный для ксеноархеологических исследований." # LOP Edit
-  price: 42100 # ~36540$ on mapinit + ~5480$ from 15% markup
+  price: 47500
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/investigator.yml # LOP edit
@@ -22,7 +22,7 @@
   - Science
   engine:
   - Solar
-  - Plasma
+  - Uranium
 
 - type: gameMap
   id: Investigator

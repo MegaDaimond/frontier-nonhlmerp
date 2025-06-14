@@ -24,7 +24,7 @@
 - type: gameMap
   id: AnomalousGeode
   mapName: 'Геологическая лаборатория' # LOP edit
-  mapPath: /Maps/_NewParadise/POI/anomalouslab.yml # LOP edit
+  mapPath: /Maps/_NewParadise/POI/anomalousgeode.yml
   minPlayers: 0
   stations:
     AnomalousGeode:
