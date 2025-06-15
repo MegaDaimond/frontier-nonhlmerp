@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: BB Lyrae
   description: "Научное судно среднего размера с лабораториями для исследований аномалий и ксеноархеологии." # LOP Edit
-  price: 57500 # Appraises at ~52210. Tier 1 vessel, markup is around ~10%.
+  price: 60000 # Appraises at ~54966. Tier 1 vessel, markup is around ~10%.
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/lyrae.yml # LOP edit

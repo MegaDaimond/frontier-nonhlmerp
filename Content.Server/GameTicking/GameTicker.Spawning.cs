@@ -8,11 +8,16 @@ using Content.Server.Ghost;
 using Content.Server.Spawners.Components;
 using Content.Server.Speech.Components;
 using Content.Server.Station.Components;
+using Content.Shared.CCVar;
 using Content.Shared.Database;
 using Content.Shared.GameTicking;
+using Content.Shared.Humanoid;
+using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Mind;
 using Content.Shared.Players;
 using Content.Shared.Preferences;
+using Content.Shared.Random;
+using Content.Shared.Random.Helpers;
 using Content.Shared.Roles;
 using Content.Shared.Roles.Jobs;
 using Robust.Shared.Map;
@@ -24,6 +29,7 @@ using Robust.Shared.Random;
 using Robust.Shared.Utility;
 using Content.Server._Corvax.Respawn; // Frontier
 using Content.Shared._NF.Roles.Components; // Frontier
+using Content.Server._Lua.AutoSalarySystem; // LUA edit
 
 namespace Content.Server.GameTicking
 {
@@ -183,6 +189,47 @@ namespace Content.Server.GameTicking
                 return;
             }
 
+            string speciesId;
+            if (_randomizeCharacters)
+            {
+                var weightId = _cfg.GetCVar(CCVars.ICRandomSpeciesWeights);
+
+                // If blank, choose a round start species.
+                if (string.IsNullOrEmpty(weightId))
+                {
+                    var roundStart = new List<ProtoId<SpeciesPrototype>>();
+
+                    var speciesPrototypes = _prototypeManager.EnumeratePrototypes<SpeciesPrototype>();
+                    foreach (var proto in speciesPrototypes)
+                    {
+                        if (proto.RoundStart)
+                            roundStart.Add(proto.ID);
+                    }
+
+                    speciesId = roundStart.Count == 0
+                        ? SharedHumanoidAppearanceSystem.DefaultSpecies
+                        : _robustRandom.Pick(roundStart);
+                }
+                else
+                {
+                    var weights = _prototypeManager.Index<WeightedRandomSpeciesPrototype>(weightId);
+                    speciesId = weights.Pick(_robustRandom);
+                }
+
+                character = HumanoidCharacterProfile.RandomWithSpecies(speciesId);
+            }
+
+       // LUA edit start
+            if (_mind.TryGetMind(player.UserId, out var oldMindId, out var oldMind) &&
+                oldMind.OwnedEntity is { } oldEntity)
+            {
+                if (TryComp<JobTrackingComponent>(oldEntity, out var oldJobTracking))
+                {
+                    _stationJobs.ClearOriginalJob(oldJobTracking.SpawnStation, player.UserId);
+                }
+            }
+       // LUA edit end
+
             // We raise this event to allow other systems to handle spawning this player themselves. (e.g. late-join wizard, etc)
             var bev = new PlayerBeforeSpawnEvent(player, character, jobId, lateJoin, station);
             RaiseLocalEvent(bev);
@@ -254,12 +301,16 @@ namespace Content.Server.GameTicking
             // Frontier: ensure jobs are tracked
             var jobComp = EnsureComp<JobTrackingComponent>(mob);
             jobComp.Job = jobId;
+            var salary = EnsureComp<SalaryTrackingComponent>(mob);
+            salary.Station = station;
+            salary.JobId = jobId;
             jobComp.SpawnStation = station;
             jobComp.Active = true;
             Dirty(mob, jobComp);
             // End Frontier
 
             _roles.MindAddJobRole(newMind, silent: silent, jobPrototype:jobId);
+            _stationJobs.TryAssignJob(station, jobPrototype, player.UserId); // LUA edit
             var jobName = _jobs.MindTryGetJobName(newMind);
             _admin.UpdatePlayerList(player);
 
@@ -293,8 +344,6 @@ namespace Content.Server.GameTicking
             {
                 EntityManager.AddComponent<OwOAccentComponent>(mob);
             }
-
-            _stationJobs.TryAssignJob(station, jobPrototype, player.UserId);
 
             if (lateJoin)
             {
@@ -337,6 +386,19 @@ namespace Content.Server.GameTicking
 
         public void Respawn(ICommonSession player)
         {
+       // LUA edit start
+            if (_mind.TryGetMind(player.UserId, out var mindId, out var mind))
+            {
+                if (mind.OwnedEntity is { } ownedEntity)
+                {
+                    if (TryComp<JobTrackingComponent>(ownedEntity, out var jobTracking))
+                    {
+                        _stationJobs.ClearOriginalJob(jobTracking.SpawnStation, player.UserId);
+                    }
+                }
+            }
+       // LUA edit end
+
             _mind.WipeMind(player);
             _adminLogger.Add(LogType.Respawn, LogImpact.Medium, $"Player {player} was respawned.");
 

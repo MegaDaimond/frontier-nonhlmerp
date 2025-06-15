@@ -150,6 +150,13 @@ namespace Content.Client.Options.UI.Tabs
 
                 KeybindsContainer.AddChild(newCheckBox);
             }
+            // Corvax edit start
+            void HandleToggleAutoGetUp(BaseButton.ButtonToggledEventArgs args)
+            {
+                _cfg.SetCVar(Shared._CorvaxNext.NextVars.NextVars.AutoGetUp, args.Pressed);
+                _cfg.SaveToFile();
+            }
+            // Corvax edit end
 
             AddHeader("ui-options-header-general");
             AddCheckBox("ui-options-hotkey-keymap", _cfg.GetCVar(CVars.DisplayUSQWERTYHotkeys), HandleToggleUSQWERTYCheckbox);
@@ -161,6 +168,7 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(EngineKeyFunctions.MoveRight);
             AddButton(EngineKeyFunctions.Walk);
             AddCheckBox("ui-options-hotkey-toggle-walk", _cfg.GetCVar(CCVars.ToggleWalk), HandleToggleWalk);
+            AddCheckBox("ui-options-hotkey-auto-up", _cfg.GetCVar(Shared._CorvaxNext.NextVars.NextVars.AutoGetUp), HandleToggleAutoGetUp); // Corvax edit
             InitToggleWalk();
 
             AddHeader("ui-options-header-camera");
@@ -171,6 +179,7 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(ContentKeyFunctions.ZoomOut);
             AddButton(ContentKeyFunctions.ResetZoom);
 
+            AddButton(ContentKeyFunctions.ToggleStanding); // Corvax edit
             AddHeader("ui-options-header-interaction-basic");
             AddButton(EngineKeyFunctions.Use);
             AddButton(EngineKeyFunctions.UseSecondary);

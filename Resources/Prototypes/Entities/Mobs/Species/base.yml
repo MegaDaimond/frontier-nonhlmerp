@@ -220,6 +220,7 @@
     - FootstepSound
     - DoorBumpOpener
     - AnomalyHost
+  - type: ERPBounder # LOP edit
 
 - type: entity
   save: false
@@ -288,6 +289,7 @@
         Asphyxiation: -1.0
   - type: FireVisuals
     alternateState: Standing
+  - type: LayingDown # Corvax edit
 
 - type: entity
   save: false

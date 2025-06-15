@@ -1,26 +1,26 @@
 <Document>
-  # HARBORMASTER-ШАТТЛ КЛАССА СЕРВИС
+  # HARBORMASTER-CLASS SERVICE SHUTTLE
   <Box>
-  <GuideEntityEmbed Entity="NFPosterContrabandLvhiStation" Caption=""/>
+  <GuideEntityEmbed Entity="NFPosterContrabandLvhiLogo" Caption=""/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="ShuttleMapHarbormaster" Caption=""/>
   </Box>
-  [color=#a4885c]Размер корабля:[/color] Малый
+  [color=#a4885c]Ship Size:[/color] Small
 
-  [color=#a4885c]Рекомендуемый экипаж:[/color] 1-2
+	[color=#a4885c]Recommended Crew:[/color] 1+
 
-  [color=#a4885c]Тип генерации энергии:[/color] Бананиум
+	[color=#a4885c]Power Gen Type:[/color] Bananium
 
-  [color=#a4885c]Экспедиции:[/color] Нет
+	[color=#a4885c]Expeditions:[/color] None
 
-  [color=#a4885c]Консоль распознавания:[/color] Нет
+	[color=#a4885c]IFF Console:[/color] None
 
-  "Доступный шаттл для буксировки заброшенных кораблей к станции Фронтир и обратно. Произведено Langstad-Voigt Heavy Industries."
+  "An affordable shuttle for towing derelict ships to and from Frontier Station. Manufactured by Langstad-Voigt Heavy Industries."
 
-  # Советы по эксплуатации шаттлов LVHI Harbormaster
-  - Общая потребляемая мощность шаттла в стандартной комплектации составляет 36 [bold]кВт[/bold]. Для получения более общей информации об энергосистеме см. статью в руководстве [textlink="Энергия" link="Power"].
-  - Имейте в виду, что портативный генератор типа D-K Jr. радиоактивен, носите радиационный костюм при работе с генератором.
-  - Основы пилотирования шаттла см. в [textlink="Пилотирование" link="Piloting"].
+  # Tips on running LVHI Harbormaster shuttles
+  - The total power load for the shuttle in standard complectation is 36 [bold]kW[/bold]. For more general info on the power grid, see the guidebook article [textlink="Power" link="Power"].
+  - Be warned that D-K Jr.-type portable generator is radioactive, wear radiation suit when working with the generator.
+  - For basics of shuttle piloting see [textlink="Piloting" link="Piloting"].
 
 </Document>

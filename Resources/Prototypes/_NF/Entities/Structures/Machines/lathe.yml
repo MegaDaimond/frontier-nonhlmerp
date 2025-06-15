@@ -44,6 +44,10 @@
     - NFServiceTechfabDeprecatedStatic
     - NFPaperAndPaperAccessories
     - ReportingStatic # DeltaV
+    # LoP edit start
+    dynamicPacks:
+    - LoPNVGPackService
+    # LoP edit end
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFServiceTechfabDeprecatedEmagStatic
@@ -108,6 +112,10 @@
     runningState: icon
     staticPacks:
     - NFEngineeringTechfabDeprecatedStatic
+    # LoP edit start
+    dynamicPacks:
+    - LoPNVGPackEngi
+    # LoP edit end
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -141,6 +149,10 @@
     runningState: icon
     staticPacks:
     - NFSalvageTechfabDeprecatedStatic
+    # LoP edit start
+    dynamicPacks:
+    - LoPNVGPackEngi
+    # LoP edit end
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFSalvageTechfabDeprecatedEmag
@@ -180,6 +192,10 @@
     - NfsdPracticeStatic
     - NfsdAmmoStatic
     - ReportingStatic # DeltaV
+    # LoP edit start
+    dynamicPacks:
+    - LoPNVGPackNFSD
+    # LoP edit end
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -214,6 +230,10 @@
     staticPacks:
     - NFMercenaryTechfabDeprecatedStatic
     - NfsdPracticeStatic
+    # LoP edit start
+    dynamicPacks:
+    - LoPNVGPackEngi
+    # LoP edit end
   - type: BlueprintReceiver
     whitelist:
       tags:
