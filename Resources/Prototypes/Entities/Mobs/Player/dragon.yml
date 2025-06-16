@@ -155,6 +155,12 @@
     - DoorBumpOpener
   - type: Puller
     needsHands: false
+  # Goob edit start
+  - type: NightVision
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
+    # Goob edit end
   - type: RandomMetadata
     nameSegments:
     - NamesDragon

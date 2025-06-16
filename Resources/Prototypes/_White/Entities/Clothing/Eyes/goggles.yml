@@ -1,0 +1,73 @@
+# Night Vision Goggles
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesNightVisionGoggles
+  name: night vision goggles
+  description: Now you can see in the dark!
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _White/Clothing/Eyes/Goggles/nightvision.rsi
+  - type: Clothing
+    sprite: _White/Clothing/Eyes/Goggles/nightvision.rsi
+  - type: NightVision
+    flashDurationMultiplier: 2
+    isEquipment: true
+  - type: IdentityBlocker
+    coverage: EYES
+
+# Thermal Vision Goggles
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesThermalVisionGoggles
+  name: thermal vision goggles
+  description: Now you can see everyone!
+  components:
+  - type: Sprite
+    sprite: _White/Clothing/Eyes/Goggles/thermal.rsi
+  - type: Clothing
+    sprite: _White/Clothing/Eyes/Goggles/thermal.rsi
+  - type: ThermalVision
+    flashDurationMultiplier: 2
+    isEquipment: true
+    toggleAction: ToggleThermalVision
+  - type: IdentityBlocker
+    coverage: EYES
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesThermalVisionGogglesNFSD
+  name: thermal vision goggles
+  description: Now you can see everyone!
+  components:
+  - type: Sprite
+    sprite: _White/Clothing/Eyes/Goggles/thermal.rsi
+  - type: Clothing
+    sprite: _White/Clothing/Eyes/Goggles/thermal.rsi
+  - type: ShowJobIcons
+  - type: ThermalVision
+    flashDurationMultiplier: 2
+    isEquipment: true
+    toggleAction: ToggleThermalVision
+  - type: IdentityBlocker
+    coverage: EYES
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LoPClothingEyesMesonThermalVisionGoggles
+  name: thermal vision goggles
+  description: Now you can see everyone!
+  components:
+  - type: Sprite
+    sprite: _White/Clothing/Eyes/Goggles/thermal.rsi
+  - type: Clothing
+    sprite: _White/Clothing/Eyes/Goggles/thermal.rsi
+  - type: EyeProtection
+  - type: ThermalVision
+    flashDurationMultiplier: 2
+    isEquipment: true
+    toggleAction: ToggleThermalVision
+  - type: IdentityBlocker
+    coverage: EYES
